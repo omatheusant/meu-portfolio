@@ -10,7 +10,7 @@ export const Projects = () => {
                         <img src="https://i.ibb.co/2sVCQth/Minimalist-Website-Launch-Computer-Mockup-Instagram-Post-3.png" />
                     </a>
                     <h2>Portfólio</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto harum eaque repudiandae exercitationem, dolorum aliquid magni unde ipsam temporibus, quibusdam voluptas omnis! Vel, delectus officiis! Rerum nihil magni cupiditate nobis nulla, nam vero praesentium reiciendis accusantium ratione possimus suscipit provident, quasi incidunt quia architecto eaque pariatur repellat illum. Officia, magni.</p>
+                    <p>Esse próprio portfólio também é um projeto de minha autoria. Esse projeto foi desenvolvido em React junto com a biblioteca styled-components com o intuito de criar um portfólio profissional moderno, atrativo e responsivo que possa oferecer ao usuário uma experiência visual satisfatória, prendendo a atenção e destacando as informações mais importantes. </p>
                     <Links>
                             <a href="https://github.com/omatheusant/meu-portfolio" target="_blank">
                                 Repositório
