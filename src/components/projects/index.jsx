@@ -5,6 +5,21 @@ export const Projects = () => {
         <Container id="projects">
             <Title>Projetos</Title>
             <ProjectsContainer>
+            <div>
+                    <a href="https://meu-portfolio-steel-beta.vercel.app" target="_blank">
+                        <img src="https://i.ibb.co/2sVCQth/Minimalist-Website-Launch-Computer-Mockup-Instagram-Post-3.png" />
+                    </a>
+                    <h2>Portfólio</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto harum eaque repudiandae exercitationem, dolorum aliquid magni unde ipsam temporibus, quibusdam voluptas omnis! Vel, delectus officiis! Rerum nihil magni cupiditate nobis nulla, nam vero praesentium reiciendis accusantium ratione possimus suscipit provident, quasi incidunt quia architecto eaque pariatur repellat illum. Officia, magni.</p>
+                    <Links>
+                            <a href="https://github.com/omatheusant/meu-portfolio" target="_blank">
+                                Repositório
+                            </a>
+                            <a href="https://meu-portfolio-steel-beta.vercel.app/" target="_blank">
+                                Link do projeto
+                            </a>
+                    </Links>
+                </div>
                 <div>
                     <a href="https://pokedex-theta-rose.vercel.app" target="_blank">
                         <img src="https://i.imgur.com/YglUjRg.png" />
@@ -34,34 +49,6 @@ export const Projects = () => {
                             <a href="https://omatheusant.github.io/projeto-inicial-fetch-github-api/" target="_blank">
                                 Link do projeto
                             </a>
-                    </Links>
-                </div>
-                <div>
-                    <img src="https://i.imgur.com/YglUjRg.png" />
-                    <h2>Titulo do projeto</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis a aperiam, autem facilis harum quasi vel voluptatibus ex officia explicabo molestias sapiente aliquid vitae totam, quod error! Officiis corporis tempora repellendus similique nostrum illum incidunt illo quasi dicta placeat in eveniet, eum rerum alias quia itaque molestias, iusto ipsum sed.</p>
-                    <Links>
-                            <a href="https://github.com/omatheusant/pokeapi" target="_blank">
-                                Repositório
-                            </a>
-                            <a href="https://pokedex-theta-rose.vercel.app" target="_blank">
-                                Link do projeto
-                            </a>
-                    </Links>
-                </div>
-                <div>
-                    <img src="https://i.imgur.com/YglUjRg.png" />
-                    <h2>Titulo do projeto</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis a aperiam, autem facilis harum quasi vel voluptatibus ex officia explicabo molestias sapiente aliquid vitae totam, quod error! Officiis corporis tempora repellendus similique nostrum illum incidunt illo quasi dicta placeat in eveniet, eum rerum alias quia itaque molestias, iusto ipsum sed.</p>
-                    <Links>
-                        
-                            <a href="https://github.com/omatheusant/pokeapi" target="_blank">
-                                Repositório
-                            </a>
-                            <a href="https://pokedex-theta-rose.vercel.app" target="_blank">
-                                Link do projeto
-                            </a>
-                        
                     </Links>
                 </div>
             </ProjectsContainer>

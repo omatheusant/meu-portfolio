@@ -1,5 +1,6 @@
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons"
 import { faFileLines } from "@fortawesome/free-regular-svg-icons"
+import Curriculum from '../../assets/curriculum.pdf'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import styled from "styled-components"
 
@@ -20,7 +21,7 @@ export const ContactIcons = () => {
             </Icon>
 
             <Icon title={"Download CV"}>
-            <a href="https://github.com/omatheusant" target="_blank">
+            <a href={Curriculum} download="CV - Matheus Santana" target="_blank" rel="noreferrer">
                 <FontAwesomeIcon icon={faFileLines} />
                 </a> 
 

@@ -34,6 +34,12 @@ export const Skills = () => {
         <span>TypeScript é uma extensão do JavaScript que adiciona tipagem estática, tornando o código mais seguro e legível, especialmente em projetos de grande escala.</span>
     </Card>
     <Card>
+    <i class="devicon-jest-plain" style={{fontSize: '5.0rem'}}></i>
+        <h2>Jest</h2>
+        <span>Jest é um framework de testes de JavaScript amplamente utilizado para testar código JavaScript, especialmente em aplicações React e Node.js.</span>
+    </Card>
+    
+    <Card>
         <FontAwesomeIcon icon={faNodeJs} style={{fontSize: '5.0rem'}}/>
         <h2>NodeJS</h2>
         <span>NodeJS é um ambiente de tempo de execução JavaScript no lado do servidor, que permite a criação de aplicativos web escaláveis e de alto desempenho.</span>

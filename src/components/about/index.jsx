@@ -10,7 +10,6 @@ export const About = () => {
                     <p>Me chamo Matheus Santana, tenho 20 anos e sou apaixonado desde criança por tecnologia, jogos e programação. Quando mais jovem, programei em Javascript e Ruby, criando jogos e programas.</p>
                     <p>Em 2023, decidi retomar meus estudos em programação. Desta vez, focando em Javascript para a área de Desenvolvimento Frontend. Escolhi o Javascript devido a sua grande comunidade, enorme potencial de crescimento e sua grande adaptabilidade que se expande para a Web, Mobile e Backend, através de React e Node. </p>
                     <p> Atuo como freelancer visando desenvolver minhas habilidades, tenho trabalhado em projetos pessoais e estou em busca da minha primeira vaga como programador frontend. Eu amo pizza, natureza e arte.</p>
-
                 </div>
             </Content>
 

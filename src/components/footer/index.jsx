@@ -32,9 +32,7 @@ export const Footer = () => {
                     <a href="https://www.linkedin.com/in/omatheussant/" target="_blank">
                         <FontAwesomeIcon icon={faLinkedin} />
                     </a>
-                    <a href="https://github.com/omatheusant" target="_blank">
-                        <FontAwesomeIcon icon={faFileLines} />
-                    </a>
+                
                     <a href="https://wa.me/5577981186690" target="_blank">
                         <FontAwesomeIcon icon={faWhatsapp} />
                     </a>
