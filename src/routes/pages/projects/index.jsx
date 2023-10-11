@@ -1,8 +1,6 @@
 import { faReact } from "@fortawesome/free-brands-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import styled from "styled-components"
-import { Styledcomponents, ReactLogo, Javascript, Html5, Css3 } from "styled-icons/simple-icons"
-
 export const Projects = () => {
     return (
         <Container id="projects">
@@ -14,11 +12,7 @@ export const Projects = () => {
                     </a>
                     <h2>Portfólio</h2>
                     <p>Esse próprio portfólio também é um projeto de minha autoria. Esse projeto foi desenvolvido em React junto com a biblioteca styled-components com o intuito de criar um portfólio profissional moderno, atrativo e responsivo que possa oferecer ao usuário uma experiência visual satisfatória, prendendo a atenção e destacando as informações mais importantes.</p>
-                    <Icons>
-                        <ReactLogo style={{width: '50px'}}/>
-                        <Styledcomponents style={{width: '70px'}}/>
-                        <Javascript style={{width: '50px'}}/>
-                    </Icons>
+                
                     <Links>
                         <a href="https://github.com/omatheusant/meu-portfolio" target="_blank">
                             Repositório
@@ -35,12 +29,6 @@ export const Projects = () => {
                     
                     <h2>Projeto Pokedex</h2>
                     <p> Este projeto se trata de uma enciclopedia virtual que oferece ao usuário as principais informações sobre cada Pokemon. O projeto possui apenas duas páginas principais, a primeira exibe uma lista de pokemons e, quando o usuário escolhe um destes, o mesmo será levado a próxima página que irá renderizar informações aprofundadas daquele pokemon expecífico. </p>
-                    <Icons>
-                        <ReactLogo style={{width: '50px'}}/>
-                        <Styledcomponents style={{width: '70px'}}/>
-                        <Javascript style={{width: '50px'}}/>
-                    </Icons>
-                    
                     <Links>
                         <a href="https://github.com/omatheusant/pokeapi" target="_blank">
                             Repositório
@@ -56,12 +44,7 @@ export const Projects = () => {
                         <img src="https://i.ibb.co/xh7W6kz/Minimalist-Website-Launch-Computer-Mockup-Instagram-Post-2.png" />
                     </a>
                     <h2>Buscador de Usuários</h2>
-                    <p>Um buscador de usuários realizado utilizando a API do Github. Se trata de um projeto simples e minimalista com o objetivo de pesquisar usuários do Github com seus principais dados, que são: nome, sobrenome, biografia e seguidores. Além disso, também é revelado os dez últimos repositórios e eventos realizados na conta buscada.</p>
-                    <Icons>
-                        <Html5 style={{width: '50px'}}/>
-                        <Css3 style={{width: '50px'}}/>
-                        <Javascript style={{width: '50px'}}/>
-                    </Icons>
+                    <p>Um buscador de usuários realizado utilizando a API do Github. Se trata de um projeto simples e minimalista com o objetivo de pesquisar usuários do Github com seus principais dados, que são: nome, sobrenome, biografia e seguidores. Além disso, também é revelado os dez últimos repositórios e eventos realizados na conta buscada.</p>             
                     <Links>
                         <a href="https://github.com/omatheusant/projeto-inicial-fetch-github-api" target="_blank">
                             Repositório
