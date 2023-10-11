@@ -12,7 +12,6 @@ export const Projects = () => {
                     </a>
                     <h2>Portfólio</h2>
                     <p>Esse próprio portfólio também é um projeto de minha autoria. Esse projeto foi desenvolvido em React junto com a biblioteca styled-components com o intuito de criar um portfólio profissional moderno, atrativo e responsivo que possa oferecer ao usuário uma experiência visual satisfatória, prendendo a atenção e destacando as informações mais importantes.</p>
-                
                     <Links>
                         <a href="https://github.com/omatheusant/meu-portfolio" target="_blank">
                             Repositório
