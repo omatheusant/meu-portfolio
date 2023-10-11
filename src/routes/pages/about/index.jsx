@@ -24,10 +24,15 @@ justify-content: space-between;
 gap: 50px;
 margin-bottom: 100px;
 
+
 h1{
     text-transform: uppercase;
     text-align: center;
     margin-top: 50px;
+    @media (min-width: 1800px) {
+    font-size: 3.0rem;
+}
+    
 }
 `
 
@@ -35,12 +40,19 @@ const Image = styled.img`
 width: 250px;
 border: 5px double var(--primary);
 border-radius: 50%;
+@media (min-width: 1800px) {
+    width: 300px;
+}
 `
 const Content = styled.div`
 display: flex;
 justify-content: center;
 align-items: center;
 gap: 60px;
+@media (max-width: 840px) {
+    flex-direction: column;
+}
+
 
 div{
     display: flex;
@@ -48,6 +60,13 @@ div{
     gap: 20px;
     width: 60vw;
     text-align: justify;
+    @media (min-width: 1800px) {
+        font-size: 1.5rem
+}
+    @media (max-width: 840px) {
+        text-align: center;
+        width: 80vw;
+}
 }
 
 `

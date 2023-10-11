@@ -40,6 +40,9 @@ margin: 10px;
 font-size: 2.5rem;
 margin-right: 30px;
 transition: all 0.3s ease-in-out;
+@media (min-width: 1800px) {
+    font-size: 4.0rem;
+}
 
 &:hover {
 transform: translateY(-10px);

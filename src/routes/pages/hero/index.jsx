@@ -1,6 +1,6 @@
 
 import styled from "styled-components"
-import { ContactIcons } from "../contactIcons"
+import { ContactIcons } from "../../../components/contactIcons"
 
 export const Hero = () => {
     return (
@@ -27,9 +27,11 @@ background: var(--primary);
 background: radial-gradient(circle, var(--secondary) 11%, #0f0029 90%);
 gap: 10px;
 z-index: 0;
-@media (max-width: 890px) {
+@media (max-width: 800px) {
     gap: 60px;
 }
+
+
 `
 
 const Greet = styled.span`
@@ -38,7 +40,12 @@ font-size: 1.3rem;
 font-weight: 900;
 color: var(--tertiary);
 margin-right: 520px;
-@media (max-width: 890px) {
+@media (min-width: 1800px) {
+    font-size: 2.0rem;
+    margin-right: 700px;
+}
+
+@media (max-width: 800px) {
     margin-right: 0px;
 }
 
@@ -53,10 +60,19 @@ font-size: 9.0rem;
 line-height: 120px;
 letter-spacing: -3px;
 position: relative;
-@media (max-width: 890px) {
+@media (min-width: 1800px) {
+    font-size: 12.0rem;
+    line-height: 150px;;
+}
+
+@media (max-width: 800px) {
     font-size: 5.0rem;
     line-height: 60px;
     text-align: center;
+}
+
+@media (max-width: 463px) {
+    font-size: 3.5rem;
 }
 
 `
@@ -65,9 +81,14 @@ const Icons = styled.span`
 color: var(--enphasis);
 position: absolute;
 right: 70px;
-@media (max-width: 890px) {
+
+@media (max-width: 800px) {
     bottom: -100px;
     left: 120px;
+}
+
+@media (max-width: 463px) {
+    left: 50px;
 }
 
 
@@ -81,7 +102,11 @@ text-transform: uppercase;
 width: 600px;
 margin-left: 250px;
 margin-top: 50px;
-@media (max-width: 890px) {
+@media (min-width: 1800px) {
+    font-size: 1.5em;
+    width: 900px;
+}
+@media (max-width: 800px) {
     margin-left: 0px;
     max-width: 80vw;
     text-align: center;

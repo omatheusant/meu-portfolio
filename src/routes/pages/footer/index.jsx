@@ -8,13 +8,13 @@ export const Footer = () => {
 
     return (
         <Container>
-            <h1>Matheus <br /> Santana </h1>
+            <h1>Matheus Santana </h1>
             <ul>
                 <li>
                     <a href="#hero">Início</a>
                 </li>
                 <li>
-                    <a href="#about">Sobre Mim</a>
+                    <a href="#about">Sobre</a>
                 </li>
                 <li>
                     <a href="#projects">Projetos</a>
@@ -53,6 +53,11 @@ padding: 20px;
 display: flex;
 align-items: center;
 
+
+@media (max-width: 1213px) {
+        flex-direction: column;
+}
+
 h1{
     color: var(--light-color);
     font-weight: 300;
@@ -61,6 +66,12 @@ h1{
     padding: 20px 50px 20px 20px;
     border-right: solid 1px var(--secondary);
     text-transform: uppercase;
+
+    @media (max-width: 1213px) {
+        padding: 0px;
+        border-right: none;
+        border-bottom: solid 1px var(--secondary) ;
+}
 }
 
 ul{
@@ -69,7 +80,18 @@ ul{
     font-size: 1.2rem;
     gap: 20px;
     margin-left: 50px;
+    @media (max-width: 1213px) {
+        margin-left: 0px;
+        margin-top: 5px;
+    
+}
 
+    @media (max-width: 468px) {
+        flex-direction: column;
+        align-items: center;
+    
+}
+    
     li{
         text-transform: uppercase;
         transition: 0.3s ease-in-out;
@@ -89,6 +111,10 @@ gap: 5px;
 margin-left: 250px;
 color: var(--secondary);
 position: relative;
+@media (max-width: 1213px) {
+    margin-left: 0px;
+    align-items: center;
+}
 
 button{
     position: absolute;
