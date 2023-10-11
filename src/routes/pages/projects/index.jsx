@@ -40,6 +40,7 @@ export const Projects = () => {
                         <Styledcomponents style={{width: '70px'}}/>
                         <Javascript style={{width: '50px'}}/>
                     </Icons>
+                    
                     <Links>
                         <a href="https://github.com/omatheusant/pokeapi" target="_blank">
                             Repositório
