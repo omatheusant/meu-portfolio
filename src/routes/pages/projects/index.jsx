@@ -2,57 +2,57 @@ import { faReact } from "@fortawesome/free-brands-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import styled from "styled-components"
 export const Projects = () => {
+    const data = [
+        {
+            name: 'Portfólio',
+            img: 'https://i.ibb.co/2sVCQth/Minimalist-Website-Launch-Computer-Mockup-Instagram-Post-3.png',
+            desc: 'Esse próprio portfólio também é um projeto de minha autoria. Esse projeto foi desenvolvido em React junto com a biblioteca styled-components com o intuito de criar um portfólio profissional moderno, atrativo e responsivo que possa oferecer ao usuário uma experiência visual satisfatória, prendendo a atenção e destacando as informações mais importantes.',
+            repo_url: 'https://github.com/omatheusant/meu-portfolio',
+            deploy_url: 'https://meu-portfolio-steel-beta.vercel.app/'
+        },
+        {
+            name: 'Pokedex',
+            img: 'https://i.imgur.com/YglUjRg.png',
+            desc: 'Este projeto se trata de uma enciclopedia virtual que oferece ao usuário as principais informações sobre cada Pokemon. O projeto possui apenas duas páginas principais, a primeira exibe uma lista de pokemons e, quando o usuário escolhe um destes, o mesmo será levado a próxima página que irá renderizar informações aprofundadas daquele pokemon expecífico.',
+            repo_url: 'https://github.com/omatheusant/pokeapi',
+            deploy_url: 'https://pokedex-theta-rose.vercel.app'
+        },
+        {
+            name: 'Buscador de Usuários',
+            img: 'https://i.ibb.co/xh7W6kz/Minimalist-Website-Launch-Computer-Mockup-Instagram-Post-2.png',
+            desc: 'Um buscador de usuários realizado utilizando a API do Github. Se trata de um projeto simples e minimalista com o objetivo de pesquisar usuários do Github com seus principais dados, que são: nome, sobrenome, biografia e seguidores. Além disso, também é revelado os dez últimos repositórios e eventos realizados na conta buscada.',
+            repo_url: 'https://github.com/omatheusant/projeto-inicial-fetch-github-api',
+            deploy_url: 'https://omatheusant.github.io/projeto-inicial-fetch-github-api/'
+        }
+    ]
+
     return (
         <Container id="projects">
             <Title>Projetos</Title>
             <ProjectsContainer>
-                <div>
-                    <a href="https://meu-portfolio-steel-beta.vercel.app" target="_blank">
-                        <img src="https://i.ibb.co/2sVCQth/Minimalist-Website-Launch-Computer-Mockup-Instagram-Post-3.png" />
-                    </a>
-                    <h2>Portfólio</h2>
-                    <p>Esse próprio portfólio também é um projeto de minha autoria. Esse projeto foi desenvolvido em React junto com a biblioteca styled-components com o intuito de criar um portfólio profissional moderno, atrativo e responsivo que possa oferecer ao usuário uma experiência visual satisfatória, prendendo a atenção e destacando as informações mais importantes.</p>
-                    <Links>
-                        <a href="https://github.com/omatheusant/meu-portfolio" target="_blank">
-                            Repositório
-                        </a>
-                        <a href="https://meu-portfolio-steel-beta.vercel.app/" target="_blank">
-                            Link do projeto
-                        </a>
-                    </Links>
-                </div>
-                <div>
-                    <a href="https://pokedex-theta-rose.vercel.app" target="_blank">
-                        <img src="https://i.imgur.com/YglUjRg.png" />
-                    </a>
-                    
-                    <h2>Projeto Pokedex</h2>
-                    <p> Este projeto se trata de uma enciclopedia virtual que oferece ao usuário as principais informações sobre cada Pokemon. O projeto possui apenas duas páginas principais, a primeira exibe uma lista de pokemons e, quando o usuário escolhe um destes, o mesmo será levado a próxima página que irá renderizar informações aprofundadas daquele pokemon expecífico. </p>
-                    <Links>
-                        <a href="https://github.com/omatheusant/pokeapi" target="_blank">
-                            Repositório
-                        </a>
-                        <a href="https://pokedex-theta-rose.vercel.app" target="_blank">
-                            Link do projeto
-                        </a>
-                    </Links>
-                </div>
+            {
+                data.map((project, index) => {
+                    return(
+                        <div key={index}>
+                            <a href={project.deploy_url}>
+                                <img src={project.img} alt="Imagem do projeto" />
+                            </a>
+                            <h2>{project.name}</h2>
+                            <p>{project.desc}</p>
+                            <Links>
+                                <a href={project.repo_url} target="_blank">
+                                    Repositório
+                                </a>
+                                <a href={project.deploy_url} target="_blank">
+                                    Link do projeto
+                                </a>
+                            </Links>
+                        </div>
+                    )
+                })
 
-                <div>
-                    <a href="https://omatheusant.github.io/projeto-inicial-fetch-github-api/" target="_blank">
-                        <img src="https://i.ibb.co/xh7W6kz/Minimalist-Website-Launch-Computer-Mockup-Instagram-Post-2.png" />
-                    </a>
-                    <h2>Buscador de Usuários</h2>
-                    <p>Um buscador de usuários realizado utilizando a API do Github. Se trata de um projeto simples e minimalista com o objetivo de pesquisar usuários do Github com seus principais dados, que são: nome, sobrenome, biografia e seguidores. Além disso, também é revelado os dez últimos repositórios e eventos realizados na conta buscada.</p>             
-                    <Links>
-                        <a href="https://github.com/omatheusant/projeto-inicial-fetch-github-api" target="_blank">
-                            Repositório
-                        </a>
-                        <a href="https://omatheusant.github.io/projeto-inicial-fetch-github-api/" target="_blank">
-                            Link do projeto
-                        </a>
-                    </Links>
-                </div>
+            }
+
             </ProjectsContainer>
         </Container>
     )

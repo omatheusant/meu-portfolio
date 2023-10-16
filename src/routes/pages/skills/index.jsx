@@ -6,7 +6,7 @@ export const Skills = () => {
     return(
 <Container id="skills">
     <Title>Tecnologias</Title>
-
+    
 <Cards>
     <Card>
         <FontAwesomeIcon icon={faHtml5} style={{fontSize: '5.0rem'}}/>
