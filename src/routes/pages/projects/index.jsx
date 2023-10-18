@@ -4,6 +4,15 @@ import styled from "styled-components"
 export const Projects = () => {
     const data = [
         {
+            name: 'AstroHub',
+            img: 'https://i.ibb.co/4Fh1LVM/mockup-project.png',
+            desc: '(Em andamento) Um jornal astronômico que exibe artigos, notícias e imagens dos mais diversos tipos de acontecimentos do mundo da astronomia. Além disso, este projeto também consome algumas APIs da NASA para oferecer diversas funcionalidades ao usuário, como: pesquisa de imagens em tempo real do planeta terra, informações de missões espaciais e a foto do dia utilizando a api Astronomy Picture of The Day.',
+            repo_url: 'https://github.com/omatheusant/astrohub',
+            deploy_url: '/'
+        },
+
+        {
+    
             name: 'Portfólio',
             img: 'https://i.ibb.co/2sVCQth/Minimalist-Website-Launch-Computer-Mockup-Instagram-Post-3.png',
             desc: 'Esse próprio portfólio também é um projeto de minha autoria. Esse projeto foi desenvolvido em React junto com a biblioteca styled-components com o intuito de criar um portfólio profissional moderno, atrativo e responsivo que possa oferecer ao usuário uma experiência visual satisfatória, prendendo a atenção e destacando as informações mais importantes.',
