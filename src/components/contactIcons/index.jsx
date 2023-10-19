@@ -1,6 +1,6 @@
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons"
 import { faFileLines } from "@fortawesome/free-regular-svg-icons"
-import Curriculum from '../../assets/curriculum.pdf'
+import Curriculum from '../../assets/cvmatheusantana.pdf'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import styled from "styled-components"
 
