@@ -4,7 +4,7 @@ export const Projects = () => {
         {
             name: 'AstroHub',
             img: 'https://i.ibb.co/4Fh1LVM/mockup-project.png',
-            desc: '(Em andamento) Um jornal astronômico que exibe artigos, notícias e imagens dos mais diversos tipos de acontecimentos do mundo da astronomia. Além disso, este projeto também consome algumas APIs da NASA para oferecer diversas funcionalidades ao usuário, como: pesquisa de imagens em tempo real do planeta terra, informações de missões espaciais e a foto do dia utilizando a api Astronomy Picture of The Day.',
+            desc: '(Em andamento) Uma comunidade para entusiastas da astronomia que exibe artigos, notícias e imagens recentes acerca do espaço. Além disso, este projeto também consome algumas APIs da NASA para oferecer diversas funcionalidades ao usuário, como: pesquisa de imagens em tempo real do planeta terra, informações de missões espaciais e a foto do dia utilizando a api Astronomy Picture of The Day.',
             repo_url: 'https://github.com/omatheusant/astrohub',
             deploy_url: '/'
         },
